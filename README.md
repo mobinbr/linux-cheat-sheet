@@ -31,11 +31,26 @@ there are different options for ls command:
 ```bash
    -t : sort by last modified (newest first)
    -l : more detailed
+   $ ls -l
+   total 4
+   drwxrwxrwx 1 mobin mobin    0 Oct 11 16:41 HW
+   drwxrwxrwx 1 mobin mobin 4096 Sep 30 10:14 slides
+
    -a : show everything including hidden
    -R : goes into every directory and recursively lists
    -h : shows memory section human readable (should be used with -l)
 ```
 
+3. **history** shows previously executed commands
+
+```bash
+   $ history
+   ...
+   2203  ls
+   2204  ls -l
+   2205  history
+   2206  pwd
+```
 
 ### Basic commands notes
 
