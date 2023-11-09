@@ -66,6 +66,19 @@ there are different options for ls command:
    ./d/inside-d:
 ```
 
+5. **rmdir** removes empty directories
+
+```bash
+   $ rmdir <directory1 name> <directory2 name> ...
+```
+
+we can force it to remove non-empty directories but it's more common to use rm -rf instead
+
+rmdir -p: removes parent directories recursively
+```bash
+   $ rmdir -p d/inside-d/inside-inside-d
+```
+
 ### Basic commands notes
 
 1. **~** denotes a user's home directory
