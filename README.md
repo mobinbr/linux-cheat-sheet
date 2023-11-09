@@ -52,6 +52,20 @@ there are different options for ls command:
    2206  pwd
 ```
 
+4. **mkdir -p** creates parent directories recursively
+
+```bash
+   $ mkdir -p d/inside-d
+   $ ls -R
+   .:
+   d
+
+   ./d:
+   inside-d
+
+   ./d/inside-d:
+```
+
 ### Basic commands notes
 
 1. **~** denotes a user's home directory
