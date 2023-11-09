@@ -10,7 +10,7 @@
 | [**Basic commands**](#basic-commands)                                   |
 
 ## Basic commands
-> [**Basic commands notes**](#basic_commands_notes)
+> [**Basic commands notes**](#basic-commands-notes)
 
 1. **pwd** shows your current directory
 
