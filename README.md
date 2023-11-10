@@ -12,6 +12,15 @@
 ## Basic commands
 > [**Basic commands notes**](#basic-commands-notes)
 
+| Command                      |
+| ---------------------------- |
+| **pwd**                      |
+| **ls**                       |
+| **history**                  |
+| **mkdir -p**                 |
+| **rmdir**                    |
+| **cat**                      |
+
 1. **pwd** shows your current directory
 
 ```bash
@@ -77,6 +86,20 @@ we can force it to remove non-empty directories but it's more common to use rm -
 rmdir -p: removes parent directories recursively
 ```bash
    $ rmdir -p d/inside-d/inside-inside-d
+```
+
+6. **cat** shows file's contents
+
+```bash
+   $ cat a.txt
+   nothing special here
+
+   -n : if you add this option, it shows files line numbers too
+```
+
+we can use this command to add to a file(using the option below everything we type will be saved in a.txt):
+```bash
+   $ cat > a.txt
 ```
 
 ### Basic commands notes
