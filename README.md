@@ -102,6 +102,24 @@ we can use this command to add to a file(using the option below everything we ty
    $ cat > a.txt
 ```
 
+7. **cp** copies file or directory to a destination path
+
+copy file:
+
+the following command makes a copy of a.txt in mydir named b.txt
+```bash
+   $ cp a.txt mydir/b.txt
+```
+
+copy directory:
+
+we use -r option to copy directories along with their contents
+the following command makes a copy of mydir1 to pdir named mydir2
+```bash
+   $ cp -r mydir1/ pdir/mydir2
+```
+
+
 ### Basic commands notes
 
 1. **~** denotes a user's home directory
