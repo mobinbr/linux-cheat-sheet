@@ -20,6 +20,8 @@
 | **mkdir -p**                 |
 | **rmdir**                    |
 | **cat**                      |
+| **cp**                       |
+| **mv**                       |
 
 1. **pwd** shows your current directory
 
@@ -114,11 +116,13 @@ the following command makes a copy of a.txt in mydir named b.txt
 copy directory:
 
 we use -r option to copy directories along with their contents
+
 the following command makes a copy of mydir1 to pdir named mydir2
 ```bash
    $ cp -r mydir1/ pdir/mydir2
 ```
 
+8. **mv**
 
 ### Basic commands notes
 
