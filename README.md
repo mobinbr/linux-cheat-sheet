@@ -122,7 +122,7 @@ the following command makes a copy of mydir1 to pdir named mydir2
    $ cp -r mydir1/ pdir/mydir2
 ```
 
-8. **mv**
+8. **mv** cuts file or directory to a destination path
 
 ### Basic commands notes
 
