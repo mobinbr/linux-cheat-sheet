@@ -22,6 +22,7 @@
 | **cat**                      |
 | **cp**                       |
 | **mv**                       |
+| **rm**                       |
 
 1. **pwd** shows your current directory
 
@@ -117,12 +118,39 @@ copy directory:
 
 we use -r option to copy directories along with their contents
 
-the following command makes a copy of mydir1 to pdir named mydir2
+make a copy of mydir1 to pdir named mydir2
 ```bash
    $ cp -r mydir1/ pdir/mydir2
 ```
 
-8. **mv** cuts file or directory to a destination path
+8. **mv** cuts file or directory to a destination path, rename a file or directory
+
+move file:
+
+move a.txt to mydir directory
+```bash
+   $ mv a.txt mydir/
+```
+
+move directory:
+
+move mydir1 directory to mydir2 directory
+```bash
+   $ mv mydir1/ mydir2/
+```
+
+rename:
+
+rename a.txt to b.txt
+```bash
+   $ mv a.txt b.txt
+```
+
+9. **rm** removes file or directory
+
+```bash
+   $ rm a.txt
+```
 
 ### Basic commands notes
 
