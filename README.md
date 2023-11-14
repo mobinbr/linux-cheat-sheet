@@ -8,6 +8,7 @@
 | Topic                                                                   |
 | ----------------------------------------------------------------------- |
 | [**Basic commands**](#basic-commands)                                   |
+| [****]                                                                  |
 
 ## Basic commands
 > [**Basic commands notes**](#basic-commands-notes)
@@ -109,7 +110,7 @@ we can use this command to add to a file(using the option below everything we ty
 
 copy file:
 
-the following command makes a copy of a.txt in mydir named b.txt
+make a copy of a.txt in mydir named b.txt
 ```bash
    $ cp a.txt mydir/b.txt
 ```
@@ -148,9 +149,19 @@ rename a.txt to b.txt
 
 9. **rm** removes file or directory
 
+remove a.txt
 ```bash
    $ rm a.txt
 ```
+
+remove a directory
+```bash
+   $ rm -r mydir/
+```
+
+10. **
+
+
 
 ### Basic commands notes
 
@@ -161,3 +172,10 @@ rename a.txt to b.txt
    $ pwd
    /home/mobin
    ```
+
+2. use **--help** or **man** to get description of the command you need
+
+3. there are 3 types of standard streams:
+ - standard input stream: source of input for the program
+ - standard output stream: used for output from the program
+ - standard error stream: used for error messages 
