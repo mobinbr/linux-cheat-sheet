@@ -5,10 +5,10 @@
 
 ## Contents List
 
-| Topic                                                                   |
-| ----------------------------------------------------------------------- |
-| [**Basic commands**](#basic-commands)                                   |
-| [****]                                                                  |
+| Topic                                                 |
+| ----------------------------------------------------- |
+| [**Basic commands**](#basic-commands)                 |
+| [**File & strings**](#file_&_strings)                 |
 
 ## Basic commands
 > [**Basic commands notes**](#basic-commands-notes)
@@ -161,8 +161,6 @@ remove a directory
 
 10. **
 
-
-
 ### Basic commands notes
 
 1. **~** denotes a user's home directory
@@ -179,3 +177,13 @@ remove a directory
  - standard input stream: source of input for the program
  - standard output stream: used for output from the program
  - standard error stream: used for error messages 
+
+
+## File & strings
+> [**File & strings notes**](#file-&-strings)
+
+| Command                      |
+| ---------------------------- |
+| ****                      |
+
+1. 
