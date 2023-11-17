@@ -208,6 +208,24 @@ remove a directory
 1. **du** shows the space usage of files and directories of the current directory 
 
 ```bash
+   du
+   680	    ./HWs/HW1
+   680	    ./HWs
+   32752	./slides/microcontroller_AVR
+   16536	./slides/microprocessor
+   49288	./slides
+   230656   ./voices
+   280624	.
+```
+as you can see, it recursively shows each directories space usage
+
+we can pass the address to du too
+
+there are some usefull options too:
+```bash
+   options:
+   -h : shows space usage human readable
+   -sh : just shows current direcotiry
 ```
 
 ### File and strings notes
