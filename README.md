@@ -8,22 +8,22 @@
 | Topic                                                 |
 | ----------------------------------------------------- |
 | [**Basic commands**](#basic-commands)                 |
-| [**File & strings**](#file_&_strings)                 |
+| [**File and strings**](#file-and-strings)             |
 
 ## Basic commands
 > [**Basic commands notes**](#basic-commands-notes)
 
-| Command                      |
-| ---------------------------- |
-| **pwd**                      |
-| **ls**                       |
-| **history**                  |
-| **mkdir -p**                 |
-| **rmdir**                    |
-| **cat**                      |
-| **cp**                       |
-| **mv**                       |
-| **rm**                       |
+| Command          |
+| ---------------- |
+| **pwd**          |
+| **ls**           |
+| **history**      |
+| **mkdir -p**     |
+| **rmdir**        |
+| **cat**          |
+| **cp**           |
+| **mv**           |
+| **rm**           |
 
 1. **pwd** shows your current directory
 
@@ -159,8 +159,6 @@ remove a directory
    $ rm -r mydir/
 ```
 
-10. **
-
 ### Basic commands notes
 
 1. **~** denotes a user's home directory
@@ -178,12 +176,38 @@ remove a directory
  - standard output stream: used for output from the program
  - standard error stream: used for error messages 
 
+4. pipelines are a kind of redirection in which we use to connect commands and get output from one and give it as input to another
 
-## File & strings
-> [**File & strings notes**](#file-&-strings)
+```bash
+   $ cat <<EOF | sort
+     hello
+     from
+     alireza
+     in quera
+     to
+     you
+     EOF
 
-| Command                      |
-| ---------------------------- |
-| ****                      |
+     alireza
+     from
+     hello
+     in quera
+     to
+     you
+```
 
-1. 
+## File and strings
+> [**File and strings notes**](#file-and-strings-notes)
+
+| Command            |
+| ------------------ |
+| **du**             |
+| ****             |
+
+
+1. **du** shows the space usage of files and directories of the current directory 
+
+```bash
+```
+
+### File and strings notes
