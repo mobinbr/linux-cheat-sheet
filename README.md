@@ -180,35 +180,36 @@ remove a directory
 
 ```bash
    $ cat <<EOF | sort
-     hello
-     from
-     alireza
-     in quera
-     to
-     you
-     EOF
+   hello
+   from
+   alireza
+   in quera
+   to
+   you
+   EOF
 
-     alireza
-     from
-     hello
-     in quera
-     to
-     you
+   alireza
+   from
+   hello
+   in quera
+   to
+   you
 ```
 
 ## File and strings
 > [**File and strings notes**](#file-and-strings-notes)
 
-| Command            |
-| ------------------ |
-| **du**             |
-| ****             |
+| Command       |
+| ------------- |
+| **du**        |
+| **file**      |
+| **find**      |
 
 
 1. **du** shows the space usage of files and directories of the current directory 
 
 ```bash
-   du
+   $ du
    680	    ./HWs/HW1
    680	    ./HWs
    32752	./slides/microcontroller_AVR
@@ -228,4 +229,20 @@ there are some usefull options too:
    -sh : just shows current direcotiry
 ```
 
+2. **file** shows files type
+
+```bash
+   $ file README.md
+   README.md: ASCII text
+```
+
+3. **find**
+
 ### File and strings notes
+
+1. there are several editors in linux like vim & nano
+```bash
+   $ nano a.txt
+
+   $ vim a.txt
+```
