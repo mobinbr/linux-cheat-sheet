@@ -68,6 +68,9 @@ there are different options for ls command:
 4. **mkdir -p** creates parent directories recursively
 
 ```bash
+   mkdir -p [new directory name]/[the insider directory name inside the new directory]
+```
+```bash
    $ mkdir -p d/inside-d
    $ ls -R
    .:
@@ -82,7 +85,7 @@ there are different options for ls command:
 5. **rmdir** removes empty directories
 
 ```bash
-   $ rmdir <directory1 name> <directory2 name> ...
+   $ rmdir [directory1 name] [directory2 name] ...
 ```
 
 we can force it to remove non-empty directories but it's more common to use rm -rf instead
@@ -94,6 +97,9 @@ rmdir -p: removes parent directories recursively
 
 6. **cat** shows file's contents
 
+```bash
+   cat [file name]
+```
 ```bash
    $ cat a.txt
    nothing special here
@@ -110,6 +116,10 @@ we can use this command to add to a file(using the option below everything we ty
 
 copy file:
 
+```bash
+   cp [file you want to copy] [the path you want your file to be copied to and the name of it]
+```
+
 make a copy of a.txt in mydir named b.txt
 ```bash
    $ cp a.txt mydir/b.txt
@@ -118,6 +128,10 @@ make a copy of a.txt in mydir named b.txt
 copy directory:
 
 we use -r option to copy directories along with their contents
+
+```bash
+   cp -r [directory you want to copy]/ [the path you want your directory to be copied to and the name of it]
+```
 
 make a copy of mydir1 to pdir named mydir2
 ```bash
@@ -232,11 +246,13 @@ there are some usefull options too:
 2. **file** shows files type
 
 ```bash
+   file [file name]
+```
+```bash
    $ file README.md
    README.md: ASCII text
 ```
 
-3. **find**
 
 ### File and strings notes
 
