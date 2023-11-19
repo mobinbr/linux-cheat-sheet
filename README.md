@@ -253,6 +253,11 @@ there are some usefull options too:
    README.md: ASCII text
 ```
 
+3. **find** finds files and directories
+
+```bash
+   $ find [starting directory to search]
+```
 
 ### File and strings notes
 
