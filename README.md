@@ -256,8 +256,13 @@ there are some usefull options too:
 3. **find** finds files and directories
 
 ```bash
-   $ find [starting directory to search]
+   $ find [starting directory to search] -name "[file to search]"
 ```
+```bash
+   find . -name "*.txt"
+```
+
+4. **
 
 ### File and strings notes
 
