@@ -218,6 +218,7 @@ remove a directory
 | **du**        |
 | **file**      |
 | **find**      |
+| **head**      |
 
 
 1. **du** shows the space usage of files and directories of the current directory 
@@ -262,7 +263,7 @@ there are some usefull options too:
    find . -name "*.txt"
 ```
 
-4. **
+4. **head**
 
 ### File and strings notes
 
